@@ -24,6 +24,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -55,6 +56,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+*.db
 
 # Flask stuff:
 instance/
@@ -89,6 +91,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea/
+/static
 
 # Spyder project settings
 .spyderproject
